@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+    font-family: 'Source Serif 4', serif;
+    font-size: 1.1rem;
+}
+.header--color {
+    background-color: #000000;
+}
+
+.navbar--logo {
+    width: 15rem;
+    height: 4rem;
+}
+.nav-link {
+    color: #ffffff;
+}
+.container__banner {
+    background-image: url(../img/imagen\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25rem;
+}
+.container__registro{
+    color: #ffffff;
+    background-color: #000000;
+    height: 5rem;
+    margin-bottom: 5rem;
+}
+.container__registro button {
+    border-radius: 40px;
+    width: 10rem;
+    border: solid #ffffff 2px;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.container__formulario {
+    border: solid #000000 1px;
+    margin-bottom: 5rem;
+}
+.container__formulario--inputradio {
+    margin-top: 1.5rem;
+    margin-bottom: 1.3rem;
+}
+.container__formulario--input {
+    width: 20rem;
+    box-shadow: 0 0.3rem 0.3rem 0 #797777;
+}
+.container__footer {
+    background-color: #e8e8e8;
+}
+.container__footer svg {
+    height: 4rem;
+    width: 4rem;
+}
+.container__footer--copyright {
+    color: #ffffff;
+    background-color: #000000;
+}
